@@ -64,8 +64,8 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  var sonIguales = x == y;
-  return sonIguales;
+  var soonIguales = x === y;
+  return soonIguales;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -81,11 +81,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   // Ejercicio # 14
-
-  if (num < 90){
-    return true;
-  }
-  return false;
+  return num < 90;
 }
 
 function mayorQueCincuenta(num) {
